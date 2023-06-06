@@ -22,7 +22,7 @@ Este plugin de Woocommerce te permite agregar un campo personalizado de RUT Chil
 
 ## Instalación
 
-1. Descarga el archivo ZIP del plugin desde [aquí](enlace-a-descarga).
+1. Descarga el archivo ZIP del plugin desde [aquí](https://github.com/uebeats/lite-chilean-rut-validator-woocommerce/releases/tag/1.0.0).
 2. Accede a tu instalación de WordPress y ve a "Plugins".
 3. Haz clic en "Añadir nuevo" y luego en "Subir plugin".
 4. Selecciona el archivo ZIP que descargaste y haz clic en "Instalar ahora".
