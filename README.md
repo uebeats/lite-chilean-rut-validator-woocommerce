@@ -48,5 +48,5 @@ Este plugin está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detal
 
 ## Contacto
 
-Si tienes alguna pregunta, sugerencia o problema relacionado con este plugin, puedes contactarme a través de [uebeats@gmail.com](mailto:uebeats@gmail.com) o [crear un problema](enlace-a-crear-problema) en GitHub.
+Si tienes alguna pregunta, sugerencia o problema relacionado con este plugin, puedes contactarme a través de [uebeats@gmail.com](mailto:uebeats@gmail.com) o [crear un problema](https://github.com/uebeats/lite-chilean-rut-validator-woocommerce/issues) en GitHub.
 

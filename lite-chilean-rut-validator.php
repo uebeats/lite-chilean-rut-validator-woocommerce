@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name:       Lite Chilean RUT validator
+ * Plugin Name:       Lite Chilean RUT validator Woocommerce
  * Plugin URI:        https://jesuscaballero.cl
  * Description:       Validador de RUT Chileno para Woocommerce
  * Version:           1.0.0
@@ -86,21 +86,17 @@ function lcrv_add_custom_checkout_fields($fields)
  * @package lite-chilean-rut-validator
  * @version 1.0.0
  */
-add_filter('woocommerce_checkout_fields', 'lcrv_set_custom_checkout_fields_initial');
 
-function lcrv_set_custom_checkout_fields_initial($fields)
-{
-  $fields_order = array('billing_rut_lcrv', 'billing_first_name', 'billing_last_name', 'billing_company', 'billing_country', 'billing_address_1', 'billing_address_2', 'billing_city', 'billing_state', 'billing_postcode', 'billing_phone', 'billing_email');
+// Mover el campo de RUT Chileno al inicio del formulario de checkout
+add_filter('woocommerce_checkout_fields', 'lcrv_move_rut_field_to_top');
 
-  foreach ($fields_order as $field) {
-    if (isset($fields['billing'][$field])) {
-      $new_fields[$field] = $fields['billing'][$field];
-    }
-  }
+function lcrv_move_rut_field_to_top($fields) {
+    $rut_field = $fields['billing']['billing_rut_lcrv'];
 
-  $fields['billing'] = $new_fields;
+    // Insertar el campo al inicio del arreglo de campos
+    $fields['billing'] = array('billing_rut_lcrv' => $rut_field) + $fields['billing'];
 
-  return $fields;
+    return $fields;
 }
 
 /**
@@ -272,7 +268,8 @@ function lcrv_plugin_display_credits()
   if ($show_credits) {
     echo '
       <div class="lcrv-copy-footer">
-        <p>Potenciado por staffdigitalchile.net</p>
+        <a href="https://jesuscaballero.cl" target="_blank" rel="noopener" title="páginas web chile">Hecho con amor por <strong>Jesús Caballero</strong>
+        </a>
       </div>';
   }
 }

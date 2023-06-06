@@ -1,10 +1,16 @@
-.lcrv-copy-footer {
-  background-color: black;
+.lcrv-copy-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000;
+  padding: 1em
 }
-.lcrv-copy-footer p {
-  font-size: 12px;
+
+.lcrv-copy-footera {
+  font-family: inherit;
+  font-size: .6em;
   color: white;
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
+}
+.lcrv-copy-footera:hover{
+  color: grey
 }
