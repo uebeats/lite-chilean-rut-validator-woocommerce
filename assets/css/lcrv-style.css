@@ -1,0 +1,10 @@
+.lcrv-copy-footer {
+  background-color: black;
+}
+.lcrv-copy-footer p {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
