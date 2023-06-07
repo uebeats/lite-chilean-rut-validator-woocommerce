@@ -42,6 +42,14 @@ Las contribuciones son bienvenidas. Si deseas contribuir al desarrollo de este p
 4. Haz push a la rama: `git push origin nombre-de-la-rama`.
 5. Abre una solicitud de extracción en GitHub.
 
+## Donaciones
+
+Si encuentras útil este plugin y deseas apoyar su desarrollo continuo, considera realizar una donación a través de Flow.cl. Cada contribución es muy apreciada y ayudará a mantener y mejorar este proyecto.
+
+[![Donar con Flow.cl](https://www.flow.cl/app/img/recaudado-flow.png)](https://www.flow.cl/app/web/pagarBtnPago.php?token=8sbbq3s)
+
+¡Gracias por tu apoyo!
+
 ## Licencia
 
 Este plugin está bajo la Licencia GPL. Ver el archivo `LICENSE` para más detalles.
