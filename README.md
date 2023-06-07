@@ -2,9 +2,9 @@
 
 > Plugin de Woocommerce para agregar un campo personalizado de RUT Chileno al formulario de checkout.
 
-![Versión](https://img.shields.io/badge/versión-1.0.0-brightgreen)
+![Versión](https://img.shields.io/badge/versión-1.1.0-brightgreen)
 ![Estado](https://img.shields.io/badge/estado-activo-blue)
-![Licencia](https://img.shields.io/badge/licencia-MIT-lightgrey)
+![Licencia](https://img.shields.io/badge/licencia-GPL-lightgrey)
 
 Este plugin de Woocommerce te permite agregar un campo personalizado de RUT Chileno al formulario de checkout, permitiendo a los clientes ingresar su RUT de manera válida.
 
