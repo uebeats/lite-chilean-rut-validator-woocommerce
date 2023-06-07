@@ -1,12 +1,23 @@
+/**
+  woocommerce lite chilean rut validator style
+**/
+.woocommerce-validated input.input-text {
+  box-shadow: inset 2px 0 0 #0f834d;
+}
+
+.woocommerce-invalid input.input-text {
+  box-shadow: inset 2px 0 0 #e2401c;
+}
+
 .lcrv-copy-footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #000;
-  padding: 1em
+  padding: .35em
 }
 
-.lcrv-copy-footera {
+.lcrv-copy-footer a {
   font-family: inherit;
   font-size: .6em;
   color: white;

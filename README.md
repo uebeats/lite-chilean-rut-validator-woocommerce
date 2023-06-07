@@ -44,7 +44,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir al desarrollo de este p
 
 ## Licencia
 
-Este plugin está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Este plugin está bajo la Licencia GPL. Ver el archivo `LICENSE` para más detalles.
 
 ## Contacto
 
